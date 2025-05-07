@@ -1,0 +1,20 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+.Tools-enter {
+  transform: translateX(100%);
+}
+.Tools-enter-active {
+  transform: translateX(0);
+  transition: transform 300ms ease-in-out;
+}
+.Tools-exit {
+  transform: translateX(0);
+}
+.Tools-exit-active {
+  transform: translateX(100%);
+  transition: transform 300ms ease-in-out;
+}
