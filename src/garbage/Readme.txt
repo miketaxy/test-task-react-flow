@@ -1,1 +1,0 @@
-In this package will be the folders and projects, that I try to realise, but, unfortunally, it didn't work :(
